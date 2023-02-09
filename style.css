@@ -3,9 +3,12 @@ body {
     font-family: 'Source Sans Pro';
 }
 body {
-    background-color: lightgray;
+    background-color: lightgrey;
 }
-
+p {
+    text-align: center;
+    padding: 20px;
+}
 h1 {
     text-align: center;
 }
@@ -18,11 +21,16 @@ h5 {
 h4 {
     text-align: center;
 }
-
+.date {
+    padding: 30px;
+}
+    
+/* for the images on screen*/
 .column {
     float: left;
-    width: 48%;
-    padding: 10px;
+    text-align: center;
+    width: 40%;
+    padding: 30px;
 }
 .row:after {
     content: "";
@@ -36,7 +44,7 @@ h4 {
     margin-right: auto;
     width: 50%;
 }
-
+/* for the navbar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -51,7 +59,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 6px;
     text-decoration: none;
 }
 li a:hover:not(.active) {
@@ -59,6 +67,14 @@ li a:hover:not(.active) {
 }
 .active {
     background-color: gray;
-
+    
 }
-
+/* for the border surrounding the page */
+.newspaper-container {
+    width: 700px;
+    margin: auto;
+    border-style: groove;
+    border-radius: 8px;
+    background-color: white;
+    
+}
